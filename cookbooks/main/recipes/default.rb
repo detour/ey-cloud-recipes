@@ -46,10 +46,10 @@ require_recipe "sphinx"
 #require_recipe "exim::auth"
 
 #uncomment to run the resque recipe
-#require_recipe "resque"
+require_recipe "resque"
 
 #uncomment to run the redis recipe
-#require_recipe "redis"
+require_recipe "redis"
 
 #require_recipe "logrotate"
 #
